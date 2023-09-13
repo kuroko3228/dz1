@@ -1,0 +1,38 @@
+.header_container{
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_name{
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Potta One;
+    color: #565759;
+    line-height: normal;
+    letter-spacing: -1.33px;
+}
+.header_catalog{
+    display: flex;
+    align-items: center;
+}
+.header_items{
+    display: flex;
+    margin: 1rem;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 16px;
+    color: #697390;
+    text-decoration: none;
+}
+.header_items:hover{
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+.header_img{
+    display: flex;
+    align-items: center;
+}
